@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>First Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style type="text/css" rel="stylesheet">
+        @media only screen and (min-width: 900px) {
+            .div1 {
+                background-color: black;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                top: 25px;
+                left: 75px;
+                z-index: 3;
+            }
+
+            .div2 {
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 150px;
+                z-index: 5;
+                opacity: 0.7;
+            }
+
+            .div3 {
+                background-image: linear-gradient(to left, red 40%, yellow 60%);
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 225px;
+                bottom: 25px;
+                z-index: 4;
+            }
+
+            .div4 {
+                background-color: green;
+                min-width: 300px;
+                height: 300px;
+                position: relative;
+                left: 200px;
+                bottom: 275px;
+                display: inline-block;
+                transform: skew(20deg, 30deg);
+            }
+        }
+
+        @media only screen and (min-width: 600px) and (max-width:899px) {
+            .div1 {
+                background-color: pink;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                top: 25px;
+                left: 75px;
+                z-index: 3;
+            }
+
+            .div2 {
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 150px;
+                z-index: 5;
+                opacity: 0.7;
+            }
+
+            .div3 {
+                background-image: linear-gradient(to left, red 40%, yellow 60%);
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 225px;
+                bottom: 25px;
+                z-index: 4;
+            }
+
+            .div4 {
+                background-color: green;
+                min-width: 300px;
+                height: 300px;
+                position: relative;
+                left: 200px;
+                bottom: 275px;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-static-top navbar-inverse bg-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse"
+                    data-target=".navbarSupportedContent">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Navbar</a>
+            </div>
+            <div class="collapse navbar-collapse navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Social Media<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <a href="bootexample.html" class="btn btn-primary">Back</a>
+</body>
+
+</html>
